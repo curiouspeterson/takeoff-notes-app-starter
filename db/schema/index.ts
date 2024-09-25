@@ -1,2 +1,2 @@
 export * from "./notes-schema";
-export * from "./projects-schema";
+export * from "./profiles-schema";
