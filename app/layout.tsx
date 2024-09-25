@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Notes App",
-  description: "A full-stack template for a notes app."
+  description: "A full-stack template for a notes app with Clerk authentication."
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
