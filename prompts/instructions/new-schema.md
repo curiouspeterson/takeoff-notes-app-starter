@@ -12,8 +12,10 @@ Your goal is to completely finish whatever the user asks for.
 2. Export any new schema in `/db/schema/index.ts`
 3. Add the new schema to the db in `/db/db.ts`
 4. Add the queries for the new schema in `/db/queries/index.ts` like `example-queries.ts`
-5. Add the actions for the new schema in `/db/actions/index.ts` like `example-actions.ts`
+5. Add the actions for the new schema in `/actions/index.ts` like `example-actions.ts`
 6. Generate the new schema with `db:generate`
 7. Migrate the new schema with `db:migrate`
 
+## Requirements
 
+- for revalidatePath just use `revalidatePath("/")`
